@@ -1887,7 +1887,7 @@ if __name__ == "__main__":
     if CMSmapUpdate :      
         initializer.UpdateRun()
     elif BruteForcingAttack :
-        BruteForcer(url,usrlist,pswlist).FindCMSType()
+        BruteForcer(scanner.url,usrlist,pswlist).FindCMSType()
     elif CrackingPasswords:
         PostExploit(None).CrackingHashesType(hashfile, wordlist)
     
